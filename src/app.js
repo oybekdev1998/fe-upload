@@ -16,7 +16,6 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = firebase.initializeApp(firebaseConfig);
-console.log(app)
 const storage = getStorage()
 
 upload('#file', {
@@ -57,7 +56,7 @@ upload('#file', {
         },
         () => {
           getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
-            console.log('File available at', downloadURL);
+            //console.log('File available at', downloadURL);
           });
         }
       );
