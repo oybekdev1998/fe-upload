@@ -21,6 +21,7 @@ const storage = getStorage()
 upload('#file', {
   multi: true,
   accept: ['.png', '.jpg', '.jpeg', '.svg'],
+
   onUpload(files, blocks) {
     files.forEach((file, index) => {
       const imagesRef = ref(storage, `images/${file.name}`);
