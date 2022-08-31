@@ -1,7 +1,7 @@
 ## 🪐 FE-UPLOAD
-***
+
 ### 🐧 Links
-***
+
 * `Repository` [https://github.com/oybekdev1998/fe-upload](https://github.com/oybekdev1998/fe-upload)
 * `Project`[https://photo-upload-q48n.vercel.app/](https://photo-upload-q48n.vercel.app/)
 * `oybekdev1998`[https://github.com/oybekdev1998](https://github.com/oybekdev1998)
@@ -38,13 +38,7 @@ npm run serve            # run server in development mode
 * Array methods: `Array.isArray()`, `Array.from()`
 * FileReader
 
-
-
 #### Вёрстка
 
 * CSS Custom Properties, изменение через JavaScript
 * CSS Flexbox
-
-***
-
-
